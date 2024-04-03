@@ -1,0 +1,68 @@
+/* write down at the start of each css code */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color:white;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+p {
+    font-size: 10px;
+    color: gray;
+}
+
+  /* header code */
+  .textbox{
+    background-color: white;
+    padding: 38px 25px;
+    text-align: center;
+    } 
+  .number-container{
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    row-gap: 10px;
+    padding:10px;
+    background-color: white;
+    justify-content: center;
+  }
+  .content{
+    background-color: white;
+    color: brown;
+    border: 1px solid white;
+  }
+  .button{
+ background-color:rgb(42, 218, 42);
+  border: none;
+  cursor: pointer; 
+  font-size: 16px;
+
+  border-radius: 50%; height: 40px; width: 40px; padding: 0
+}
+
+  .parent-box{
+    border: 6px outset grey;
+    border-radius: 6px;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+  }
+.fa-phone{
+    color: white;
+}
+.Footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 10px;
+}
+
+.call-div {
+padding: 20px 0;
+}
